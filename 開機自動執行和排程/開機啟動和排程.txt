@@ -1,0 +1,9 @@
+*開機自動執行
+
+在 /etc/init.d 中加入一個 script，
+再製作相關的 link，存到 /etc/rc*.d 中。
+例：
+在 /etc/init.d 中建立一個叫作 start_rma 的 script , 然後
+# update-rc.d start_rma defaults
+
+p.s 權限設定成 755，並加上 chmod + x 
