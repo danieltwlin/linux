@@ -12,6 +12,7 @@ fio --name=read_test --rw=write --size=1G --direct=1
 
 #參數
  ## direct : 是否使用Direct IO，預設為1，不使用 memory buffer
+ ## runtime : 指定在多少秒后停止进程
 
 
 #報告數據
