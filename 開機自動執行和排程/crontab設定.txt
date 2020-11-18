@@ -15,3 +15,12 @@
 每年執行       0 0 1 1 *
 
 
+*指令要用絕對路徑，包含被呼叫的 sh script 裡面的指令，也要包含路徑
+* shell 要改成 chmod +x  的執行權限
+
+例如
+
+oss_upload.sh
+/iesdata/oss/ossutil64 cp -r /iesdata/oss/  oss://iestw/oss -u
+
+
