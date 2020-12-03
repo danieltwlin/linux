@@ -1,5 +1,5 @@
 # 給予全部權限
-root    ALL=(ALL:ALL) ALL
+root  ALL=(ALL:ALL) ALL
 john  ALL = (ALL) ALL
 
 # 給予指定的 permission 
