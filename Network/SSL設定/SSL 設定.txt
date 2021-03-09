@@ -10,5 +10,5 @@
 再下
 # service httpd restart
 
-接著重啟阿帕契
+接著重啟apache
 sudo service apache2 restart
