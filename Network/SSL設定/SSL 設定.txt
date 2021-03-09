@@ -1,13 +1,14 @@
 
 # run the following command to enable Apache's SSL mod:
 
-$ sudo a2enmod ssl
+ sudo a2enmod ssl
 
-先下此指令看config的狀態有沒有正確
-#apache2ctl configtest
+# 先下此指令看config的狀態有沒有正確
+ 
+ apache2ctl configtest
 
 再下
-#service httpd restart
+# service httpd restart
 
 接著重啟阿帕契
 sudo service apache2 restart
