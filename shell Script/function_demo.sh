@@ -7,3 +7,4 @@ function echoHello() {
 
 echoHello 'world' 'rock'
 
+# ${0} 會印出shell 檔名，${1} 開始才是參數
