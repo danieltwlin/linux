@@ -8,3 +8,8 @@ create mode = 0777           #建立檔案的預設權限
 directory mode = 0777        #建立目錄的預設權限
 write list = smbuser         #哪個帳號或群組的用戶可以寫入
 valid users = smbuser        #不是寫入權限，而是能用此資源的人(是否唯讀要看設定)
+
+
+
+# 重啟Samba
+# service smbd restart
