@@ -11,5 +11,5 @@ valid users = smbuser        #不是寫入權限，而是能用此資源的人(�
 
 
 
-# 重啟Samba
+# 重啟 Samba
 # service smbd restart
