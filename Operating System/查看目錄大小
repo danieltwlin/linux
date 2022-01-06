@@ -3,20 +3,19 @@ du -chd 1 | sort -h
 
 從當前目錄位置（上面的“1”）輸出每個子目錄的總大小，以及所有子目錄的總和，並按人類可讀的大小對其進行排序：
 
--c或--total 除了显示个别目录或文件的大小外，同时也显示所有目录或文件的总和。
--h或--human-readable 以K，M，G为单位，提高信息的可读性。
-
-df -h ， h 是指用可讀性較好的單位來換算。
-
-du -hs /path/to/folder 單純看某個目錄大小的做法。
+ -c, --total
+        produce a grand total
+ -h, --human-readable (G, MB)
+ -d, --max-depth=N
 
 
-使用 ls 列出路徑中的檔案（資料夾目錄也是一種檔案）時會看到如下的資訊，就是資料夾佔了 4K 大小。
+*單純看某個目錄大小的做法。
+ du -hs /path/to/folder 
 
+    -s, --summarize
+              display only a total for each argument
 
-所以要確定資料夾目錄所佔用的實際用量需要使用 du 指令來查看。
-
-看到這邊就會知道，如果要列出「所有資料夾目錄」總站用檔案大小的時候，那操作又不一樣了！
+使用 ls 列出路徑中的檔案（資料夾目錄也是一種檔案）,比如資料夾佔了 4K 大小。
 
 
 * three 指令
