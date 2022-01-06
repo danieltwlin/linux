@@ -21,3 +21,6 @@ du -hs /path/to/folder 單純看某個目錄大小的做法。
 du -chd 1 | sort -h 這個指令才是把當前路徑中所有目錄所佔用大小做統計並且排序。
 
 目錄大小統計排序
+
+*tree 指令
+ tree -h --du
